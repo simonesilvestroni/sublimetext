@@ -1,0 +1,56 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables":
+  {
+    "font_size_sm": 12,
+    "font_size": 12,
+    "font_size_lg": 16,
+    "font_size_title": 19,
+    "font_face": "729"
+  },
+  "rules":
+  [
+    {
+      "class": "overlay_scroll_bars",
+      "scroll_area_control": false
+    },
+    {
+      "class": "sidebar_tree",
+      "row_padding": [12, 0, 0, 4],
+      "indent": 12,
+      "indent_offset": 13,
+      "indent_top_level": false,
+      "dark_content": false,
+      "spacer_rows": false
+    },
+    {
+      "class": "sidebar_label",
+    },
+    {
+      "class": "sidebar_heading",
+      "case": "title",
+    },
+    {
+      "class": "status_bar",
+      "content_margin": [8, 4, 8, 6],
+    },
+    {
+      "class": "label_control",
+      "parents": [{"class": "status_bar"}],
+    },
+    {
+      "class": "label_control",
+      "parents": [{"class": "status_button"}],
+    },
+    {
+      "class": "text_line_control",
+      "parents": [{"class": "overlay_control"}],
+      "font.face": "var(font_face)",
+    },
+    {
+      "class": "text_line_control",
+      "parents": [{"class": "switch_project_window"}],
+      "font.face": "var(font_face)",
+    }
+  ]
+}

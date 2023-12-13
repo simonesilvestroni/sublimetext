@@ -1,0 +1,46 @@
+[
+  { "keys": ["ctrl+w"], "command": "toggle_profile"},
+  { "keys": ["ctrl+b"], "command": "toggle_side_bar" },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+v"], "command": "paste" },
+  { "keys": ["super+shift+r"], "command": "reindent" },
+  { "keys": ["alt+m"], "command": "markdown_preview" },
+  { "keys": ["ctrl+r"], "command": "lsp_document_symbols" },
+  { "keys": ["ctrl+shift+r"], "command": "lsp_workspace_symbols" },
+  { "keys": ["alt+`"], "command": "toggle_terminus_panel" },
+  { "keys": ["ctrl+alt+p"], "command": "jekyll_new_post_from_template" },
+  { "keys": ["ctrl+alt+d"], "command": "jekyll_insert_datetime" },
+  { "keys": ["ctrl+super+v"], "command": "vsc_open_in_visal_studio_code" },
+  { 
+    "keys": ["ctrl+alt+w"], "command": "terminus_close", "context": [{ "key": "terminus_view"}]
+  },
+  {
+    "keys": ["super+alt+w"],
+    "command": "toggle_setting",
+    "args": {
+        "setting": "word_wrap"
+    }
+  },
+  // run paste as link command on selected text
+  { "keys": ["super+k"], "command": "mde_reference_new_inline_link", "context":
+    [
+      { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true },
+      { "key": "setting.mde.keymap_disable.reference_new_inline_link", "operator": "not_equal", "operand": true }
+    ]
+  },
+  // Sublime Text Find & Replace Widget
+  {
+    "keys": ["alt+h"],
+    "command": "toggle_highlight",
+    "context": [
+      {"key": "panel_type", "operand": "find"}, {"key": "panel_has_focus"}
+    ]
+  },
+  {
+    "keys": ["alt+s"],
+    "command": "toggle_in_selection",
+    "context": [
+      {"key": "panel_type", "operand": "find"}, {"key": "panel_has_focus"}
+    ]
+  }
+]

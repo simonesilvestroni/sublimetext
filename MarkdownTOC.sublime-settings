@@ -1,0 +1,7 @@
+{
+  "defaults": {
+    "autoanchor": true,
+    "autolink": true,
+    "levels": [1,2,3]
+  }
+}
