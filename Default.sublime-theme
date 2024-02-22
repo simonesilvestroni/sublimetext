@@ -2,10 +2,10 @@
 {
   "variables":
   {
-    "font_size_sm": 12,
-    "font_size": 12,
-    "font_size_lg": 16,
-    "font_size_title": 19,
+    "font_size_sm": 12.5,
+    "font_size": 12.5,
+    "font_size_lg": 18,
+    "font_size_title": 18,
     "font_face": "729"
   },
   "rules":

@@ -2,5 +2,4 @@
   "enabled_parsers": ["github"],
   "parser": "github",
   "github_mode": "gfm",
-  "browser": "/Applications/Firefox.app"
 }
