@@ -2,8 +2,8 @@
 {
   "variables":
   {
-    "font_size_sm": 12.5,
-    "font_size": 12.5,
+    "font_size_sm": 11.5,
+    "font_size": 11.5,
     "font_size_lg": 18,
     "font_size_title": 18,
     "font_face": "729"
@@ -16,7 +16,7 @@
     },
     {
       "class": "sidebar_tree",
-      "row_padding": [12, 0, 0, 4],
+      "row_padding": [12, -2, -2, 4],
       "indent": 12,
       "indent_offset": 13,
       "indent_top_level": false,
